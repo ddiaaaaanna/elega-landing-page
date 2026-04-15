@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elega - Modern Clothing</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <nav class="flex-container">
+        <div class="burger-menu">
+          <div class="burger"></div>
+          <div class="burger"></div>
+          <div class="burger"></div>
+        </div>
+        <a href="#header" class="logo" id="header"
+          ><img src="./img/logo.png" alt="logo"
+        /></a>
+        <ul class="header-menu flex-container">
+          <li>
+            <a href="#header"
+              >Man's <img src="./img/header-icon-arrow.png" alt="Arrow icon"
+            /></a>
+          </li>
+          <li>
+            <a href="#header"
+              >Woman's <img src="./img/header-icon-arrow.png" alt="Arrow icon"
+            /></a>
+          </li>
+          <li><a href="#">Kid's</a></li>
+          <li><a href="#">Winter</a></li>
+          <li><a href="#">Summer</a></li>
+          <li><a href="#">NEW Collections</a></li>
+        </ul>
+        <ul class="icon-menu flex-container">
+          <li>
+            <a href="#" id="heart-icon"
+              ><img src="./img/header-icon-heart.png" alt="Heart icon"
+            /></a>
+          </li>
+          <li class="cart-items">
+            <a href="#">
+              <img src="./img/header-icon-cart.png" alt="Cart icon" />
+              <img
+                src="./img/header-icon-cartitems.png"
+                alt="Items in cart icon"
+                class="items-icon"
+              />
+            </a>
+          </li>
+          <li>
+            <img
+              src="./img/header-profilephoto.png"
+              alt="Profile photo"
+              class="profile-photo"
+            />
+          </li>
+          <li class="profile-nav flex-container">
+            <h6>Samantha Johnson</h6>
+            <a href="#">View Profile</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- HERO -->
+      <section class="hero">
+        <div class="hero-main flex-container">
+          <div class="hero-txt">
+            <h3 class="subhead">Be extra</h3>
+            <h1 class="headline">
+              Modern <br />
+              Cloths
+            </h1>
+            <p>
+              Elevate your style with our latest fashion arrivals, where quality
+              meets trendsetting designs. Discover the perfect outfit for every
+              occasion.
+            </p>
+            <div class="search-container">
+              <input type="text" placeholder="Search for anything" />
+              <button class="flex-container">
+                <img src="./img/hero-search-icon.png" alt="Search icon" />Search
+              </button>
+            </div>
+          </div>
+          <div class="hero-photo">
+            <img
+              src="./img/hero-mainphoto.jpg"
+              alt="Fashion portrait of model"
+            />
+          </div>
+        </div>
+        <div class="hero-nav flex-container">
+          <div class="hero-nav-right flex-container">
+            <img src="./img/hero-scroll-icon.png" alt="Mouse icon" />
+            <p>Scroll for more</p>
+          </div>
+          <div class="hero-nav-left flex-container">
+            <div class="dots flex-container">
+              <div class="carousel-dot-one"></div>
+              <div class="carousel-dot"></div>
+              <div class="carousel-dot"></div>
+              <div class="carousel-dot"></div>
+            </div>
+            <div class="arrows">
+              <a href="#"
+                ><img src="./img/hero-arrow-left.png" alt="Arrow icon"
+              /></a>
+              <a href="#"
+                ><img src="./img/hero-arrow-right.png" alt="Arrow icon"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- STYLES CARD SECTION -->
+      <section class="styles-photo-cards" id="styles-cards">
+        <div class="cards flex-container">
+          <!--  -->
+          <div class="card summer">
+            <a href="#styles-cards">
+              <div class="card-text">
+                <h5>Summer</h5>
+                <p>Collections</p>
+              </div>
+            </a>
+          </div>
+          <!--  -->
+          <div class="card autumn">
+            <a href="#styles-cards">
+              <div class="card-text">
+                <h5>Autumn</h5>
+                <p>Collections</p>
+              </div>
+            </a>
+          </div>
+          <!--  -->
+          <div class="card classic">
+            <a href="#styles-cards">
+              <div class="card-text">
+                <h5>Classic</h5>
+                <p>Collections</p>
+              </div>
+            </a>
+          </div>
+          <!--  -->
+          <div class="card professional">
+            <a href="#styles-cards">
+              <div class="card-text">
+                <h5>Professional</h5>
+                <p>Collections</p>
+              </div>
+            </a>
+          </div>
+          <!--  -->
+        </div>
+        <div class="arrows-main">
+          <div class="arrows">
+            <a href="#">
+              <img src="./img/hero-arrow-left.png" alt="Arrow icon"
+            /></a>
+            <a href="#">
+              <img src="./img/hero-arrow-right.png" alt="Arrow icon"
+            /></a>
+          </div>
+        </div>
+      </section>
+      <!-- CASUAL STYLE SECTION -->
+      <section class="style-section">
+        <div class="style-txt flex-container">
+          <div class="style-txt-left">
+            <h1 class="headline">Casual</h1>
+            <div class="subhead-txt flex-container">
+              <div class="decorative-line"></div>
+              <h3 class="subhead">Style</h3>
+            </div>
+          </div>
+          <div class="style-txt-right">
+            <h5 class="mobile-txt">
+              Discover effortless comfort and style at our e-shop with our
+              curated casual collection. From relaxed-fit t-shirts to cozy
+              sweaters and stylish sneakers, we blend comfort and contemporary
+              trends seamlessly. Whether you're on the go or just relaxing,
+              explore our modern take on casual fashion today.
+            </h5>
+            <h5 class="desktop-txt">
+              Casual style is all about effortless comfort and laid-back
+              elegance, making it a perennial favorite for fashion-conscious
+              individuals seeking a versatile wardrobe. At our clothes e-shop,
+              we embrace the essence of casual fashion with a collection that
+              combines comfort and contemporary trends, featuring relaxed-fit
+              t-shirts, cozy sweaters, comfortable jeans, and stylish sneakers.
+              Whether you're running errands, meeting friends for a coffee, or
+              lounging at home, our casual clothing selection effortlessly
+              blends comfort and style. Explore our e-shop today for a modern
+              take on casual fashion.
+            </h5>
+            <button>More</button>
+          </div>
+        </div>
+        <div class="items-cards flex-container">
+          <!--  -->
+          <div class="product-card">
+            <img
+              src="./img/items-card1.jpg"
+              alt="Black heeled boots"
+              class="product-image"
+            />
+            <div class="banners">
+              <div class="product-heart-icon">
+                <img src="./img/black-heart-icon.png" alt="Heart icon" />
+              </div>
+              <div class="banner-new">NEW IN</div>
+            </div>
+            <div class="product-card-info">
+              <div class="product-info">
+                <h5>Boots</h5>
+                <p>239€</p>
+              </div>
+              <div class="product-details flex-container">
+                <div class="review-bar flex-container">
+                  <p>5.0</p>
+                  <div class="star-raiting">
+                    <img src="./img/items-card-star-icon.png" alt="Star icon" />
+                    <img src="./img/items-card-star-icon.png" alt="Star icon" />
+                    <img src="./img/items-card-star-icon.png" alt="Star icon" />
+                    <img src="./img/items-card-star-icon.png" alt="Star icon" />
+                    <img src="./img/items-card-star-icon.png" alt="Star icon" />
+                  </div>
+                  <p>(52)</p>
+                </div>
+                <div class="colors">
+                  <div class="color-options black"></div>
+                  <div class="color-options brown"></div>
+                  <div class="color-options white"></div>
+                </div>
+              </div>
+            </div>
+            <div class="mobile-button">
+              <button>Add to cart</button>
+            </div>
+          </div>
+          <!--  -->
+          <div class="product-card">
+            <img
+              src="./img/items-card2.jpg"
+              alt="Peach colored woman's trousers"
+              class="product-image"
+            />
+            <div class="banners">
+              <div class="product-heart-icon">
+                <img src="./img/heart-icon.png" alt="Heart icon" />
+              </div>
+              <div class="banner-new">NEW IN</div>
+            </div>
+            <div class="product-card-info">
+              <div class="product-info">
+                <h5>Trousers</h5>
+                <p>250€</p>
+              </div>
+              <div class="product-details flex-container">
+                <div class="review-bar flex-container">
+                  <p>5.0</p>
+                  <div class="star-raiting">
+                    <img src="./img/items-card-star-icon.png" alt="Star icon" />
+                    <img src="./img/items-card-star-icon.png" alt="Star icon" />
+                    <img src="./img/items-card-star-icon.png" alt="Star icon" />
+                    <img src="./img/items-card-star-icon.png" alt="Star icon" />
+                    <img src="./img/items-card-star-icon.png" alt="Star icon" />
+                  </div>
+                  <p>(200)</p>
+                </div>
+                <div class="colors">
+                  <div class="color-options peach"></div>
+                  <div class="color-options purple"></div>
+                  <div class="color-options grey"></div>
+                </div>
+              </div>
+            </div>
+            <div class="mobile-button">
+              <button>Add to cart</button>
+            </div>
+          </div>
+          <!--  -->
+          <div class="product-card">
+            <img
+              src="./img/items-card3.jpg"
+              alt="Black T-shirt"
+              class="product-image"
+            />
+            <div class="banners">
+              <div class="product-heart-icon">
+                <img src="./img/heart-icon.png" alt="Heart icon" />
+              </div>
+            </div>
+            <div class="product-card-info">
+              <div class="product-info">
+                <h5>T-shirts</h5>
+                <div class="price-change">
+                  <p>59€</p>
+                  <div class="sale-price">108€</div>
+                </div>
+              </div>
+              <div class="product-details flex-container">
+                <div class="review-bar flex-container">
+                  <p>5.0</p>
+                  <div class="star-raiting">
+                    <img src="./img/items-card-star-icon.png" alt="Star icon" />
+                    <img src="./img/items-card-star-icon.png" alt="Star icon" />
+                    <img src="./img/items-card-star-icon.png" alt="Star icon" />
+                    <img src="./img/items-card-star-icon.png" alt="Star icon" />
+                    <img src="./img/items-card-star-icon.png" alt="Star icon" />
+                  </div>
+                  <p>(200)</p>
+                </div>
+                <div class="colors">
+                  <div class="color-options black"></div>
+                  <div class="color-options pink"></div>
+                  <div class="color-options yellow"></div>
+                  <div class="color-options white"></div>
+                </div>
+              </div>
+            </div>
+            <div class="mobile-button">
+              <button>Add to cart</button>
+            </div>
+          </div>
+          <!--  -->
+          <div class="product-card mobile-only">
+            <img
+              src="./img/items-card-mobile-only1.jpg"
+              alt="Animal print boots"
+              class="product-image"
+            />
+            <div class="banners">
+              <div class="product-heart-icon">
+                <img src="./img/heart-icon.png" alt="Heart icon" />
+              </div>
+            </div>
+            <div class="product-card-info">
+              <div class="product-info">
+                <h5>Boots</h5>
+                <div class="price-change">
+                  <p>250€</p>
+                  <div class="sale-price">500€</div>
+                </div>
+              </div>
+              <div class="product-details flex-container">
+                <div class="review-bar flex-container">
+                  <p>5.0</p>
+                  <div class="star-raiting">
+                    <img src="./img/items-card-star-icon.png" alt="Star icon" />
+                    <img src="./img/items-card-star-icon.png" alt="Star icon" />
+                    <img src="./img/items-card-star-icon.png" alt="Star icon" />
+                    <img src="./img/items-card-star-icon.png" alt="Star icon" />
+                    <img src="./img/items-card-star-icon.png" alt="Star icon" />
+                  </div>
+                  <p>(32)</p>
+                </div>
+                <div class="colors">
+                  <div class="color-options brown"></div>
+                  <div class="color-options grey"></div>
+                </div>
+              </div>
+            </div>
+            <div class="mobile-button">
+              <button>Add to cart</button>
+            </div>
+          </div>
+          <!--  -->
+        </div>
+      </section>
+      <!-- AUTUMN OFFER SECTION -->
+      <section class="offers-section">
+        <div class="gradient-one"></div>
+        <div class="gradient-two"></div>
+        <div class="offers-sec flex-container">
+          <div class="text-content">
+            <h1>
+              up to <br />
+              70% OFF
+            </h1>
+            <p>Autumn Offers</p>
+          </div>
+          <div class="offer-photo"></div>
+        </div>
+      </section>
+      <!-- PROFFESIONAL STYLE SECTION -->
+      <section class="style-section">
+        <div class="style-txt flex-container">
+          <div class="style-txt-left">
+            <h1 class="headline professional">Professional</h1>
+            <div class="subhead-txt flex-container">
+              <div class="decorative-line"></div>
+              <h3 class="subhead">Style</h3>
+            </div>
+          </div>
+          <div class="style-txt-right">
+            <h5 class="mobile-txt">
+              Elevate your professional style with our meticulously curated
+              e-shop collection. From tailored suits to elegant blouses, we
+              seamlessly blend sophistication with contemporary trends. Make a
+              lasting impression at work and beyond with our quality materials
+              and timeless designs. Explore our selection today to enhance your
+              business and formal wardrobe.
+            </h5>
+            <h5 class="desktop-txt">
+              Professional style embodies sophistication and polish, catering to
+              those who require a refined and put-together appearance for their
+              work or formal occasions. Our e-shop is dedicated to offering a
+              meticulously curated range of professional attire that seamlessly
+              blends professionalism with contemporary fashion trends. Our
+              collection includes tailored suits, crisp dress shirts, elegant
+              blouses, classic skirts, and tasteful accessories to help you make
+              a lasting impression in the workplace and beyond. Whether you're
+              attending meetings, conferences, or important presentations, our
+              professional attire ensures you exude confidence and competence.
+              Elevate your professional style with quality materials and
+              timeless designs from our e-shop, where sophistication meets
+              modernity. Explore our selection today and elevate your wardrobe
+              for the world of business and formal events.
+            </h5>
+            <button>More</button>
+          </div>
+        </div>
+        <div class="items-cards flex-container">
+          <!--  -->
+          <div class="product-card">
+            <img
+              src="./img/professional-style-card-1.png"
+              alt="Black bow tie"
+              class="product-image"
+            />
+            <div class="banners">
+              <div class="product-heart-icon">
+                <img src="./img/heart-icon.png" alt="Heart icon" />
+              </div>
+            </div>
+            <div class="product-card-info">
+              <div class="product-info">
+                <h5>Bow tie</h5>
+                <div class="price-change">
+                  <p>23€</p>
+                  <div class="sale-price">40€</div>
+                </div>
+              </div>
+              <div class="product-details flex-container">
+                <div class="review-bar flex-container">
+                  <p>4.5</p>
+                  <div class="star-raiting">
+                    <img src="./img/items-card-star-icon.png" alt="Star icon" />
+                    <img src="./img/items-card-star-icon.png" alt="Star icon" />
+                    <img src="./img/items-card-star-icon.png" alt="Star icon" />
+                    <img src="./img/items-card-star-icon.png" alt="Star icon" />
+                    <img src="./img/star-half-filled.png" alt="Star icon" />
+                  </div>
+                  <p>(202)</p>
+                </div>
+                <div class="colors">
+                  <div class="color-options black"></div>
+                  <div class="color-options brown"></div>
+                  <div class="color-options light-grey"></div>
+                  <div class="color-options purple"></div>
+                  <div class="color-options red"></div>
+                  <div class="color-options pink"></div>
+                </div>
+              </div>
+            </div>
+            <div class="mobile-button">
+              <button>Add to cart</button>
+            </div>
+          </div>
+          <!--  -->
+          <div class="product-card">
+            <img
+              src="./img/professional-style-card-2.png"
+              alt="Model wearing striped top and white trousers"
+              class="product-image"
+            />
+            <div class="banners">
+              <div class="product-heart-icon">
+                <img src="./img/heart-icon.png" alt="Heart icon" />
+              </div>
+              <div class="banner-new">NEW IN</div>
+            </div>
+            <div class="product-card-info">
+              <div class="product-info">
+                <h5>Shirts</h5>
+                <p>180€</p>
+              </div>
+              <div class="product-details flex-container">
+                <div class="review-bar flex-container">
+                  <p>5.0</p>
+                  <div class="star-raiting">
+                    <img src="./img/items-card-star-icon.png" alt="Star icon" />
+                    <img src="./img/items-card-star-icon.png" alt="Star icon" />
+                    <img src="./img/items-card-star-icon.png" alt="Star icon" />
+                    <img src="./img/items-card-star-icon.png" alt="Star icon" />
+                    <img src="./img/items-card-star-icon.png" alt="Star icon" />
+                  </div>
+                  <p>(150)</p>
+                </div>
+                <div class="colors">
+                  <div class="color-options blue"></div>
+                  <div class="color-options gray"></div>
+                </div>
+              </div>
+            </div>
+            <div class="mobile-button">
+              <button>Add to cart</button>
+            </div>
+          </div>
+          <!--  -->
+          <div class="product-card">
+            <img
+              src="./img/professional-style-card-3.png"
+              alt="Model wearing peach colored suit"
+              class="product-image"
+            />
+            <div class="banners">
+              <div class="product-heart-icon">
+                <img src="./img/heart-icon.png" alt="Heart icon" />
+              </div>
+            </div>
+            <div class="product-card-info">
+              <div class="product-info">
+                <h5>Suit</h5>
+                <div class="price-change">
+                  <p>1305€</p>
+                  <div class="sale-price">1528€</div>
+                </div>
+              </div>
+              <div class="product-details flex-container">
+                <div class="review-bar flex-container">
+                  <p>5.0</p>
+                  <div class="star-raiting">
+                    <img src="./img/items-card-star-icon.png" alt="Star icon" />
+                    <img src="./img/items-card-star-icon.png" alt="Star icon" />
+                    <img src="./img/items-card-star-icon.png" alt="Star icon" />
+                    <img src="./img/items-card-star-icon.png" alt="Star icon" />
+                    <img src="./img/items-card-star-icon.png" alt="Star icon" />
+                  </div>
+                  <p>(15)</p>
+                </div>
+                <div class="colors">
+                  <div class="color-options light-pink"></div>
+                  <div class="color-options navy"></div>
+                  <div class="color-options dark-green"></div>
+                  <div class="color-options salmon"></div>
+                </div>
+              </div>
+            </div>
+            <div class="mobile-button">
+              <button>Add to cart</button>
+            </div>
+          </div>
+          <!--  -->
+          <!--  -->
+          <div class="product-card mobile-only">
+            <img
+              src="./img/items-card1.jpg"
+              alt="Black heeled boots"
+              class="product-image"
+            />
+            <div class="banners">
+              <div class="product-heart-icon">
+                <img src="./img/black-heart-icon.png" alt="Heart icon" />
+              </div>
+              <div class="banner-new">NEW IN</div>
+            </div>
+            <div class="product-card-info">
+              <div class="product-info">
+                <h5>Boots</h5>
+                <p>239€</p>
+              </div>
+              <div class="product-details flex-container">
+                <div class="review-bar flex-container">
+                  <p>5.0</p>
+                  <div class="star-raiting">
+                    <img src="./img/items-card-star-icon.png" alt="Star icon" />
+                    <img src="./img/items-card-star-icon.png" alt="Star icon" />
+                    <img src="./img/items-card-star-icon.png" alt="Star icon" />
+                    <img src="./img/items-card-star-icon.png" alt="Star icon" />
+                    <img src="./img/items-card-star-icon.png" alt="Star icon" />
+                  </div>
+                  <p>(52)</p>
+                </div>
+                <div class="colors">
+                  <div class="color-options black"></div>
+                  <div class="color-options brown"></div>
+                  <div class="color-options white"></div>
+                </div>
+              </div>
+            </div>
+            <div class="mobile-button">
+              <button>Add to cart</button>
+            </div>
+          </div>
+          <!--  -->
+        </div>
+      </section>
+      <!--  -->
+      <!-- FEATURED COLLECTION SECTION -->
+      <section class="featured-section">
+        <div class="gradient-one"></div>
+        <div class="featured-sec flex-container">
+          <div class="text-content">
+            <h1 class="headline">Stepping Up in Style</h1>
+            <div class="subheading flex-container">
+              <div class="decorative-line"></div>
+              <h3 class="subhead">Women's High Heels</h3>
+            </div>
+            <div class="featured-text">
+              <p>
+                From classic stilettos to trendy block heels, our collection
+                caters to all tastes and occasions. With a focus on quality,
+                comfort, and the latest trends, our high heels are a symbol of
+                empowerment and self-expression. Elevate your style confidently
+                with our Women's High Heels Collection.
+              </p>
+              <button>Shop Collection</button>
+            </div>
+          </div>
+          <div class="collection-photo"></div>
+        </div>
+      </section>
+    </main>
+    <!-- FOOTER -->
+    <footer>
+      <div class="decorative-line"></div>
+      <div class="footer-items flex-container">
+        <!--  -->
+        <div class="footer-column">
+          <h2>Menu</h2>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Career</a></li>
+            <li><a href="#">Investors</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Contacts</a></li>
+          </ul>
+        </div>
+        <!--  -->
+        <div class="footer-column">
+          <h2>Account</h2>
+          <ul>
+            <li><a href="#">Log in</a></li>
+            <li><a href="#">Sing up</a></li>
+            <li><a href="#">Cart</a></li>
+            <li><a href="#">Orders history</a></li>
+            <li><a href="#">Favorites</a></li>
+            <li><a href="#">Discounts</a></li>
+            <li><a href="#">Newsletter</a></li>
+          </ul>
+        </div>
+        <!--  -->
+        <div class="footer-column">
+          <h2>Help</h2>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms & conditions</a></li>
+            <li><a href="#">Shipping Policy</a></li>
+            <li><a href="#">Return Policy</a></li>
+            <li><a href="#">Order</a></li>
+          </ul>
+        </div>
+        <!--  -->
+        <div class="footer-column contact">
+          <h2>Contact Us</h2>
+          <ul>
+            <li><a href="#">info@elega.com</a></li>
+            <li><a href="#">+37065498829</a></li>
+            <li><a href="#">11:30 AM- 7:30 PM</a></li>
+          </ul>
+          <!--  -->
+          <h2 id="social-media">Social media</h2>
+          <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Pinterest</a></li>
+            <li><a href="#">Tiktok</a></li>
+          </ul>
+          <!--  -->
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
